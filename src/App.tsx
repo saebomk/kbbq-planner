@@ -13,7 +13,6 @@ import { StepDrinks } from './components/StepDrinks'
 import { StepDessert } from './components/StepDessert'
 import { ShoppingList } from './components/ShoppingList'
 import { SavedLists } from './components/SavedLists'
-import { FlameIcon } from './components/FlameIcon'
 
 type Screen = 'start' | 'wizard' | 'list' | 'saved'
 
