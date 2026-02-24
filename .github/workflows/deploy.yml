@@ -23,9 +23,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-      - run: npm ci
-        env:
-          NODE_ENV: development
+      - run: npm ci --include=dev
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
